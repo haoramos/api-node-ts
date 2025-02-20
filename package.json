@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "npx tsx --env-file=.env --watch src/index.ts"
   },
@@ -11,9 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "commonjs": "^0.0.1",
     "dotenv": "^16.4.7",
     "express": "^5.0.1",
-    "http-status-codes": "^2.3.0"
+    "http-status-codes": "^2.3.0",
+    "tsc": "^2.0.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.20.0",
@@ -24,6 +25,7 @@
     "eslint": "^9.20.1",
     "eslint-config-auto": "^0.9.0",
     "globals": "^15.15.0",
+    "typescript": "^5.7.3",
     "typescript-eslint": "^8.24.1"
   }
 }
